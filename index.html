@@ -4,16 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Charity: Water | Real Systemic Change</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
-  <div class="content-box">
-    <h1>Charity: Water, inspiring real systemic change.</h1>
-    <p>
-      We don’t funnel money towards temporary solutions.<br>
-      We give experts and their communities the tools to build sustainable, reliable water access systems.
-    </p>
-    <a href="#" class="cta-button">Donate Now</a>
+<body style="background: #fff; color: #000;">
+  <!-- Surrounding images layout -->
+  <div style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: 30px; margin-bottom: 40px;">
+    <!-- Top row: A, B, C each take up 1/3 of the horizontal space -->
+    <div style="display: flex; justify-content: center; align-items: flex-end; width: 70%;">
+      <img src="img/img-A.jpg" alt="Image A" style="flex: 1 1 33%; width: 33%; max-width: 100%; height: auto; margin: 0 5px; box-sizing: border-box;">
+      <img src="img/img-B.jpg" alt="Image B" style="flex: 1 1 33%; width: 33%; max-width: 100%; height: auto; margin: 0 5px; box-sizing: border-box;">
+      <img src="img/img-C.jpg" alt="Image C" style="flex: 1 1 33%; width: 33%; max-width: 100%; height: auto; margin: 0 5px; box-sizing: border-box;">
+    </div>
+    <!-- Middle row: D (left), text, F (right) all horizontal and each 1/3 width -->
+    <div style="display: flex; justify-content: center; align-items: stretch; width: 70%; margin-top: 20px;">
+      <!-- D on the left, horizontal -->
+      <div style="flex: 1 1 33%; display: flex; justify-content: center; align-items: center;">
+        <img src="img/img-D.jpg" alt="Image D" style="width: 100%; max-width: 100%; height: auto; margin: 0 18px; box-sizing: border-box;">
+      </div>
+      <!-- Text content in the center, 1/3 width -->
+      <div class="content-box" style="flex: 1 1 33%; margin: 0 18px; text-align: center; color: #000; background-color: #f0f0f0; align-self: center; box-sizing: border-box;">
+        <p>
+          <strong>Charity: Water</strong>, inspiring <em><strong>real systemic change.</strong></em>
+          <br/>
+          We don’t funnel money towards temporary solutions.
+          We give experts and their communities the tools to build <em><strong>sustainable, reliable water access systems.</strong></em>
+        </p>
+        <!-- Centered Donate Now button below the text -->
+        <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 16px;">
+          <a href="#" class="cta-button">
+            Donate Now
+          </a>
+        </div>
+        <!-- Centered logo below the button -->
+        <div style="width: 100%; display: flex; justify-content: center;">
+          <img src="img/logo.png" alt="Charity Water Logo" style="width: 120px; height: auto; display: block; margin: 0 auto;">
+        </div>
+      </div>
+      <!-- F on the right, horizontal -->
+      <div style="flex: 1 1 33%; display: flex; justify-content: center; align-items: center;">
+        <img src="img/img-F.jpg" alt="Image F" style="width: 100%; max-width: 100%; height: auto; margin: 0 18px; box-sizing: border-box;">
+      </div>
   </div>
 </body>
 </html>
